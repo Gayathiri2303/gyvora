@@ -40,15 +40,3 @@ document.querySelectorAll('.faq-question').forEach(button => {
     }
   });
 });
-
-// Contact form handling
-const contactForm = document.getElementById('contactForm');
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-  const name = document.getElementById('name').value;
-
-  alert(`Thank you, ${name}!\n\nYour message has been noted.\nPlease also email us at gyvora.solutions@gmail.com so we can reply to you quickly.\n\nWe will get back to you soon.`);
-
-  contactForm.reset();
-});
