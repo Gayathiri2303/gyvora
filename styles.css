@@ -926,11 +926,6 @@ section {
   width: fit-content;
 }
 
-.status-ongoing {
-  background: rgba(255, 180, 0, 0.15);
-  color: #FFB400;
-  border: 1px solid rgba(255, 180, 0, 0.3);
-}
 
 .status-completed {
   background: rgba(46, 204, 113, 0.15);
